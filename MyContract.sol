@@ -16,3 +16,8 @@ contract MyContract {
         return (myNumber, myString);
     }
 }
+
+// This contract has two public state variables myNumber and myString, which can be read by any user of the contract. It also has three functions:
+setNumber which allows the user to set the value of myNumber.
+setString which allows the user to set the value of myString.
+getValues which allows the user to retrieve the current values of myNumber and myString.
